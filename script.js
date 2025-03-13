@@ -1,7 +1,7 @@
 const users = [
     { email: "admin", senha: "1234", nome: "Administrator" },
     { email: "john", senha: "abcd", nome: "John" },
-    { email: "jane", senha: "pass", nome: "Jane Smith" }
+    { email: "jane", senha: "pass", nome: "Jane" }
 ];
 
 document.getElementById("loginForm").addEventListener("submit", function(event) {
