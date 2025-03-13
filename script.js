@@ -1,6 +1,6 @@
 const users = [
     { email: "admin", senha: "1234", nome: "Administrator" },
-    { email: "john", senha: "abcd", nome: "John Doe" },
+    { email: "john", senha: "abcd", nome: "John Doe " },
     { email: "jane", senha: "pass", nome: "Jane Smith" }
 ];
 
