@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+form{
+    width: 466px;
+    height: 232px;
+    margin: 0 auto;
+    margin-top: 33vh;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+table td {
+    height: 36px;
+    border: 1px solid black;
+}
+body {
+    background-color: lightblue;
+}
