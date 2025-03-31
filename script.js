@@ -1,18 +1,22 @@
-const users = [
-    { email: "admin", senha: "1234", nome: "Administrator" },
-    { email: "john", senha: "abcd", nome: "John Doe" },
-    { email: "jane", senha: "pass", nome: "Jane Smith" }
-];
-
-document.getElementById("loginForm").addEventListener("submit", function(event) {
+document.getElementById("loginForm").addEventListener("submit", async function(event) {
     event.preventDefault();
 
     const email = document.getElementById("email").value;
     const senha = document.getElementById("senha").value;
 
-    const user = users.find(u => u.email === email && u.senha === senha);
+    try {
+        const response = await fetch('users.json');
+        const users = await response.json();
 
-    if (user) {
-        window.location.href = `bem_vindo.html?nome=${encodeURIComponent(user.nome)}`;
-    } 
+        const user = users.find(u => u.email === email && u.senha === senha);
+
+        if (user) {
+            window.location.href = `bem_vindo.html?nome=${encodeURIComponent(user.nome)}`;
+        } else {
+            alert("Credenciais inválidas!");
+        }
+    } catch (error) {
+        console.error("Erro ao carregar usuários:", error);
+        alert("Erro ao processar login. Tente novamente.");
+    }
 });
