@@ -1,5 +1,5 @@
 [
-    { "email": "admin", "senha": "1234", "nome": "Administrator" },
-    { "email": "john", "senha": "abcd", "nome": "John Doe" },
-    { "email": "jane", "senha": "pass", "nome": "Jane Smith" }
+    { "usuario": "admin", "senha": "1234", "nome": "Administrator" },
+    { "usuario": "john", "senha": "abcd", "nome": "John Doe" },
+    { "usuario": "jane", "senha": "pass", "nome": "Jane Smith" }
 ]
