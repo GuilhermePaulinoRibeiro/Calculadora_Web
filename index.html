@@ -20,7 +20,7 @@
                     Usuario:
                 </td>
                 <td style="border-right: none;">
-                    <input type="text" id="user" name="usuario"/>
+                    <input type="text" id="user" name="usuario" required/>
                 </td>
             </tr>
                 <tr>
@@ -28,7 +28,7 @@
                         Senha:
                     </td>
                     <td style="border-right: none;">
-                        <input type="password" id="senha" name="senha" maxlength="10"/>
+                        <input type="password" id="senha" name="senha" maxlength="10" required/>
                     </td>
                 </tr>
                 <tr>
@@ -38,6 +38,7 @@
                 </tr>
         </table>
     </form>
+    <p id="error-message">Senha ou usuario incorretos</p>
 
     <script src="script.js"></script>
 </body>
