@@ -3,6 +3,8 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
 
     const usuario = document.getElementById("user").value;
     const senha = document.getElementById("senha").value;
+    const errorMessage = document.getElementById("error-message");
+            
 
     try {
         const response = await fetch('users.json');
@@ -16,6 +18,7 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
         } else {
          
             alert("Credenciais inválidas!");
+            errorMessage.style.display = "block";
             
         }
     } catch (error) {

@@ -18,3 +18,10 @@ table td {
 body {
     background-color: lightblue;
 }
+
+#error-message{
+    margin-top:10px; 
+    display: none;
+    Color: Red;
+    text-align: center;
+}
