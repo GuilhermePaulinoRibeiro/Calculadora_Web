@@ -1,5 +1,5 @@
 {
-  "name": "math-tests",
+  "name": "script-tests",
   "version": "1.0.0",
   "scripts": {
     "test": "jest"
