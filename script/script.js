@@ -56,6 +56,7 @@ function somar() {
     // resultado.textContent = "Resultado: " + (n1 + n2);
 
     textoBalao.textContent = "Resultado: " + (n1 + n2);
+    return n1 + n2;
 }
 
 function subtrair() {
