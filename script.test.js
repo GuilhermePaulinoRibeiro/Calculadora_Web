@@ -1,4 +1,4 @@
-const { somar, subtrair, multiplicar, dividir } = require('./script/script');
+const { somar, subtrair, multiplicar, dividir } = require('./script/operacoes');
 
 test('somar', () => {
   expect(somar(2, 3)).toBe(5);
