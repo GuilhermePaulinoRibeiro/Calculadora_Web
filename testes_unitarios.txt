@@ -1,0 +1,80 @@
+Testes unitários em pseudocódigo para operações matemáticas
+
+Função: somar(a, b)
+
+Teste 1:
+Entrada: a = 2, b = 3
+Esperado: 5
+
+Teste 2:
+Entrada: a = -5, b = 5
+Esperado: 0
+
+Teste 3:
+Entrada: a = 0, b = 0
+Esperado: 0
+
+Teste 4:
+Entrada: a = 1.5, b = 2.5
+Esperado: 4
+
+
+Função: subtrair(a, b)
+
+Teste 1:
+Entrada: a = 5, b = 2
+Esperado: 3
+
+Teste 2:
+Entrada: a = 2, b = 5
+Esperado: -3
+
+Teste 3:
+Entrada: a = 0, b = 0
+Esperado: 0
+
+Teste 4:
+Entrada: a = 10, b = -5
+Esperado: 15
+
+
+Função: multiplicar(a, b)
+
+Teste 1:
+Entrada: a = 3, b = 4
+Esperado: 12
+
+Teste 2:
+Entrada: a = -2, b = 5
+Esperado: -10
+
+Teste 3:
+Entrada: a = 0, b = 100
+Esperado: 0
+
+Teste 4:
+Entrada: a = 2.5, b = 2
+Esperado: 5
+
+
+Função: dividir(a, b)
+
+Teste 1:
+Entrada: a = 10, b = 2
+Esperado: 5
+
+Teste 2:
+Entrada: a = 9, b = 3
+Esperado: 3
+
+Teste 3:
+Entrada: a = 5, b = 0
+Esperado: Erro "Divisão por zero"
+
+Teste 4:
+Entrada: a = -8, b = 2
+Esperado: -4
+
+Teste 5:
+Entrada: a = 7, b = 2
+Esperado: 3.5

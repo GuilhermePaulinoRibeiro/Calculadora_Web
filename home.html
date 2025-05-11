@@ -10,18 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
-    <title>Login</title>
+    <title>Welcome</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
+    <a href="index.html" class="btn-sair">Sair</a>
+
     <div class="balao">
-        <h2 id="texto-balao">Login</h2>
+        <h2 id="texto-balao">Bem-vindo</h2>
     </div>
     <div class="triangulo"></div>
 
     <div class="container-calc">
-
 
         <div class="container-display">
             <div class="display">
@@ -30,31 +31,16 @@
                 <div id="rosto"></div>
                 <p id="error-message">Senha ou usuário incorretos.</p>
             </div>
-
         </div>
 
         <div class="container-inputs">
-            <form id="loginForm" class="container">
-                <div class="user-pass-wrapper">
-
-                    <div class="wraper-input">
-                        <p>Usuário</p>
-                        <input type="text" id="user" name="usuario" required />
-                    </div>
-
-                    <div class="wraper-input">
-                        <p>Senha</p>
-                        <input type="password" id="senha" name="senha" required />
-                    </div>
-
-                </div>
-                <button class="button-30 submit" type="submit">Login</button>
-            </form>
+            <a href="operacoes/soma.html"><button class="button-30">Soma</button></a>
+            <a href="operacoes/subtracao.html"><button class="button-30">Subtração</button></a>
+            <a href="operacoes/divisao.html"><button class="button-30">Divisão</button></a>
+            <a href="operacoes/multiplicacao.html"><button class="button-30">Multiplicação</button></a>
         </div>
 
     </div>
-
-    <script src="script/script.js"></script>
 </body>
 
 </html>

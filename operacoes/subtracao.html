@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>Subtracao</title>
+    <link rel="stylesheet" href="../estilo.css">
+</head>
+
+<body>
+    <a href="../home.html" class="btn-sair">Voltar</a>
+
+    <div class="balao">
+        <h2 id="texto-balao">Subtracao</h2>
+    </div>
+    <div class="triangulo"></div>
+
+    <div class="container-calc">
+        <div class="container-display">
+            <div class="display">
+
+                <p id="resultado"></p>
+                <div id="rosto"></div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="user-pass-wrapper">
+                <input type="number" id="num1" placeholder="Digite o primeiro número">
+                <p class="operador">−</p>
+                <input type="number" id="num2" placeholder="Digite o segundo número">
+            </div>
+            <button onclick="subtrair()" class="button-30 submit">Calcular</button>
+        </div>
+    </div>
+
+    <script src="../script/script.js"></script>
+</body>
+
+</html>
