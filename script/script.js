@@ -76,6 +76,7 @@ function subtrair() {
     //rosto.style.display = "none";
     //resultado.style.display = "block";
     textoBalao.textContent = "Resultado: " + (n1 - n2);
+    return n1-n2;
 }
 
 function dividir() {
@@ -91,12 +92,13 @@ function dividir() {
     }
     if (n2 === 0) {
         resultado.textContent = "Erro: divisão por zero.";
-        return;
+        return "Divisão por zero";
     }
 
     rosto.style.display = "none";
     resultado.style.display = "block";
     resultado.textContent = "Resultado: " + (n1 / n2);
+    return n1/n2;
 }
 
 
@@ -115,4 +117,8 @@ function multiplicar() {
     rosto.style.display = "none";
     resultado.style.display = "block";
     resultado.textContent = "Resultado: " + (n1 * n2);
+    return n1*n2;
+
 }
+
+module.exports = { somar, subtrair, multiplicar, dividir };
